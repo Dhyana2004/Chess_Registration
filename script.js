@@ -28,7 +28,5 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     } else {
         document.getElementById('message').innerText = 'Please fill in all fields.';
     }
-
-    // Clear the form
     document.getElementById('registrationForm').reset();
 });
